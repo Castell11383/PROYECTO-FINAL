@@ -1,0 +1,128 @@
+body{
+    background-color: cadetblue;
+    background-image: url(..//Images//hospital\ 2.jpg);
+    background-repeat: no-repeat;
+}
+
+h1{
+    text-align: center;
+    border-color: rgb(39, 125, 236);
+    font-family: "Abril Fatface", serif;
+    font-size: 75px;
+    text-shadow: 2px 2px 2px rgba(107, 168, 249, 0.527);
+}
+
+.topnav {
+    background-color: #33333385;
+    overflow: hidden;
+    text-align: left;
+    border-radius: 15px;
+    border: 5px;
+    border-color: rgba(255, 166, 0, 0.529);
+    border-style:inset;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 19px 15px;
+    text-decoration: none;
+    font-size: 19px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 500;
+    overflow: hidden;
+    background-color: #00000055;
+  }
+  
+  li {
+    float: right;
+    border-right:1px solid #bbbbbb61;
+  }
+  
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 25px 50px;
+    text-decoration:double;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: silver;
+  }
+    
+  .pack {
+    background-color: rgb(39, 125, 236);
+    color:black;
+  }
+  
+  .pack1{
+    background-color: red;
+    color: white;
+  }
+  
+    .logo{
+      position: fixed;
+      top: 0px;
+      margin-left: 1px;
+      margin-top: 300px;
+      width: 100px;
+    }
+  
+    .logo1{   
+      position: fixed;
+      top: 0px;
+      margin-left: 1px;
+      margin-top: 400px;
+      width: 100px;
+      border-radius: 15px;
+    }
+  
+    .logo2{
+      position: fixed;
+      top: 0px;
+      margin-left: 1px;
+      margin-top: 525px;
+      width: 100px;
+      border-radius: 15px;
+    }
+    
+  table{
+    margin-top: 5%;
+    margin-left: 23%;
+    border: 5px;
+    border-color: black;
+    border-style: inset;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    box-shadow: 6px 6px 6px 6px green;
+  }
+
+  thead{
+    border: 5px;
+    border-color: black;
+    border-style: double;
+    background-color: rgba(255, 166, 0, 0.3);
+    color: white;
+  }
+
+  tr, th, td{
+    border-color: black;
+    border-style: double;
+  }
+
+  tbody{
+    border: 5px;
+    border-color: black;
+    border-style: double;
+    background-color: rgba(255, 255, 255, 0.412);
+    color: black;
+  }
