@@ -1,3 +1,9 @@
+body{
+  background-color: cadetblue;
+  background-image: url(..//Images//79490-hospitales-1.jpg);
+  background-repeat: no-repeat;
+}
+
 h1{
     margin-left: 25%;
     text-align: center;
